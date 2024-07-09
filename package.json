@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --no-minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^7.0.4",
+    "postcss": "^8.4.39",
     "sass": "^1.77.6"
   },
   "dependencies": {
