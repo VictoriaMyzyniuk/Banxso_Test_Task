@@ -2,20 +2,29 @@
   "name": "banxso_test_task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "homepage": "https://victoriamyzyniuk.github.io/Banxso_Test_Task",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --no-minify"
+    "build": "parcel build index.html --public-url /Banxso_Test_Task/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriamyzyniuk/Banxso_Test_Task.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victoriamyzyniuk/Banxso_Test_Task/issues"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "cssnano": "^7.0.4",
-    "postcss": "^8.4.39",
-    "sass": "^1.77.6"
-  },
   "dependencies": {
     "swiper": "^11.1.4"
-  }
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
 }
