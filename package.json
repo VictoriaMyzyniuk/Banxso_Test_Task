@@ -2,17 +2,17 @@
   "name": "banxso_test_task",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://victoriamyzyniuk.github.io/Banxso_Test_Task",
+  "homepage": "https://VictoriaMyzyniuk.github.io/Banxso_Test_Task",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url /Banxso_Test_Task/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victoriamyzyniuk/Banxso_Test_Task.git"
+    "url": "git+https://github.com/VictoriaMyzyniuk/Banxso_Test_Task.git"
   },
   "bugs": {
-    "url": "https://github.com/victoriamyzyniuk/Banxso_Test_Task/issues"
+    "url": "https://github.com/VictoriaMyzyniuk/Banxso_Test_Task/issues"
   },
   "keywords": [],
   "author": "",
