@@ -1,0 +1,19 @@
+{
+  "name": "banxso_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.77.6"
+  },
+  "dependencies": {
+    "swiper": "^11.1.4"
+  }
+}
